@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/round_tv"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/first_player_tv"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/second_player_tv"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/third_player_tv"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/fourth_player_tv"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/primary_text" />
+</LinearLayout>

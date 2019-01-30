@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutorial_title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/open_new_game_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/open_new_game"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/add_new_game_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            app:srcCompat="@drawable/add_new_game" />
+
+        <TextView
+            android:id="@+id/add_names_tut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/add_plyrs_names"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/add_players_names" />
+
+        <TextView
+           android:id="@+id/add_round_tv1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/add_round_tut1"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            app:srcCompat="@drawable/add_new_round" />
+
+        <TextView
+           android:id="@+id/add_round_tv2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/add_round_tut2"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/enter_players_bid" />
+
+        <TextView
+           android:id="@+id/con_round_tv1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/con_round_tut1"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            app:srcCompat="@drawable/conform_round" />
+
+        <TextView
+           android:id="@+id/con_round_tv2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/con_round_tut2"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/edit_bid" />
+
+        <TextView
+           android:id="@+id/delete_round_tut"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/delete_round_tut"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+       <TextView
+           android:id="@+id/edit_round_tut"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:text="@string/edit_round_tut"
+           android:textColor="@color/black"
+           android:textSize="18sp" />
+
+   </LinearLayout>
+</ScrollView>

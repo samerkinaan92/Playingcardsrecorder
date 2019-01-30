@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.foxappdevelopment.playingcardsrecorder.HistoryActivity">
+    <group >
+        <item
+            android:id="@+id/action_clear_history"
+            android:orderInCategory="100"
+            android:title="@string/clear_history_menu_item"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_tutorial"
+            android:orderInCategory="100"
+            android:title="@string/tutorial"
+            app:showAsAction="never"/>
+    </group>
+    <group >
+        <item
+            android:title="@string/about"
+            android:orderInCategory="101"
+            android:id="@+id/about_item" />
+    </group>
+</menu>
